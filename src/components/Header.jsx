@@ -1,8 +1,8 @@
-import style from "./Header.module.css";
+import styles from "./Header.module.css";
 
 export const Header = () => {
     return (
-        <header className={style.header}>
+        <header className={styles.header}>
             <h1>R Feed</h1>
         </header>
     );
