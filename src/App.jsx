@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 
 import styles from "./App.module.css";
+import { Post } from "./components/Post";
 
 export const App = () => {
   return (
@@ -12,7 +13,7 @@ export const App = () => {
         <Sidebar />
 
         <main>
-          main
+          <Post />
         </main>
       </div>
     </div>
